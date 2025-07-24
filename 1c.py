@@ -1,5 +1,11 @@
 # As you may be able to see, there are print statements for leftovers from part b. The following script is to work right after part B's script in order to train the model.
 
+# THE MODEL'S ACCURACY REMAINS 11% BECAUSE 10, 10, 10 FOR HIDDEN LAYERS IS TOO SMALL
+# DOWNSAMPLING IS CAUSING A LOSS IN PIXELS, LESS DATA
+# WEIGHTS ARE TOO SMALL AS WELL
+# STACKING LAYERS OF LITTLE PERCEPTRONS DON'T HELP EITHER
+
+
 # Import necessary libraries
 from sklearn.datasets import fetch_openml       
 from sklearn.model_selection import train_test_split  
