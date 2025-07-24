@@ -1,3 +1,7 @@
+"""
+The dataset from part C was used to evaluate 1 epoch of the model. The accuracy ended up being 11% for 1 epoch. Code for part c should include indications of it being used for part b as well.
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 
